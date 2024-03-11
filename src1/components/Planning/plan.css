@@ -1,0 +1,82 @@
+.mainPlan{
+display: flex;
+height: 400px;
+/* background-color: brown; */
+justify-content: center;
+margin-top: 100px;
+}
+.planConatiner{
+    width: 100%;
+    max-width: 1444px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.planLeft{
+    /* background-color: aquamarine; */
+    position: relative;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planRight{
+    padding: 10px;
+    /* background-color: pink; */
+    flex: 2;
+}
+.subRight{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    /* align-items: center; */
+}
+.subIcon{
+    border-radius: 10px;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+     border: 1px solid #fff;
+     /* Box Shadow */
+     box-shadow: 1px 1px 5px 0px #00000020;
+    /* background-color: aqua; */
+    width: 5%;
+    height: 40px;
+}
+.subLeft{
+    /* background-color: blue; */
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: -33px;
+    right: 100px;
+    backdrop-filter: blur(5px);
+    /* background-color: lightgray; */
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.fonrIght{
+    
+    border-radius: 10px;
+    border-width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+     border: 1px solid #fff;
+     /* Box Shadow */
+     box-shadow: 1px 1px 5px 0px #00000020;
+    /* background-color: aqua; */
+    width: 15%;
+    height: 40px;
+}
+.subRightItem{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}

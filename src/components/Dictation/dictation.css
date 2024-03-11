@@ -1,0 +1,15 @@
+.dictation{
+    display: flex;
+    height: 500px;
+    /* background-color: brown; */
+    justify-content: center;
+    margin-top: 100px;
+}
+.dictationContainer{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1444px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
